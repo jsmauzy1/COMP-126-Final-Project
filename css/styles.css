@@ -1,0 +1,141 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+  color: #242124
+}
+
+h1 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 5em;
+}
+
+h2 {
+  font-size: 1.8em;
+}
+
+.logo {
+  font-family: 'Bangers', sans-serif;
+}
+
+.banner {
+  background-color: rgb(86,160,211);
+}
+
+.top-space {
+  padding-top: 64px;
+}
+
+.map {
+  overflow: hidden;
+  padding-bottom: 75%;
+  position: relative;
+}
+
+.map iframe {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.calendar {
+  overflow: hidden;
+  padding-bottom: 75%;
+  position: relative;
+}
+
+.calendar iframe {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.card-color {
+  background-color: #354A65;
+}
+
+.card-color p {
+  color: #F9F9F9;
+}
+
+.circle {
+  border-radius: 100%;
+  width: 80%;
+}
+
+.cut {
+  width: 100%;
+}
+
+.pic-height {
+  height: auto;
+}
+
+form {
+  max-width: 500px;
+  background: #354A65;
+  margin: auto auto;
+}
+
+legend {
+  color: #F9F9F9
+}
+
+button {
+  color: #fff;
+  background-color: #56A0D3;
+  border: none;
+  transition: all 350ms;
+}
+
+button:hover,
+button:focus {
+  background-color: #56A0D3;
+  color: #242124;
+}
+
+
+input[type="email"] {
+  background: rgba(120, 132, 147, 0.5);
+  border: 2px solid transparent;
+  outline: 0;
+  width: 60%;
+  color: #F9F9F9;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+  caret-color: #F9F9F9;
+  transition: all 350ms;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #F9F9F9;
+}
+
+input:hover,
+input:focus,
+textarea:hover,
+textarea:focus {
+  border: 2px solid #F9F9F9;
+}
+
+
+@media only screen and (min-width: 768px) {
+  .map {
+    overflow: hidden;
+    padding-bottom: 30%;
+    position: relative;
+  }
+  
+  .calendar {
+    overflow: hidden;
+    padding-bottom: 40%;
+    position: relative;
+  }
+
+  .pic-height {
+    height: auto;
+    width: 40%;
+  }
+
+  .cut {
+    width: 60%;
+  }
+}
